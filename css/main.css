@@ -1,0 +1,119 @@
+@import "./reset.css";
+
+:root {
+    --back: #5837FF;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back);
+    color: #FFFFFF;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+    background-color: #8045FF;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+.first {
+    padding: 20px 62px 950px 62px;
+    position: relative;
+    color: #FFFFFF; 
+    overflow: hidden;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    min-width: 1920px;
+    z-index: -2;
+    left: 0;
+    top: -120px;
+}
+.trumpet {
+    position: absolute;
+    object-fit: cover;
+    width: calc(1308 / 1920 * 100%);
+    right: 40px;
+    top: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Nunito';
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first p {
+    font-size: 3rem;
+    width: calc(500 / 1920 * 100%);
+    margin: 50px 0;
+}
+
+.yellow-button {
+    background: linear-gradient(30deg, #EEDD51, #FFDD87, #EEDD51);
+    color: #2B1C03 !important;
+    border-radius: 50vh;
+    padding: 10px 50px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.second {
+    margin-top: 50px;
+    padding: 0 62px;
+    color: #2B1C03;
+}
+
+.second h2 {
+    font-size: 5.8rem;
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+.second p {
+    font-size: 3.2rem;
+    margin: 30px 0 70px 0;
+    color: #534068;
+}
+

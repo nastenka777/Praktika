@@ -1,0 +1,96 @@
+@import "./reset.css";
+
+:root {
+    --back: #5837FF;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back);
+    color: #FFFFFF;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+    background-color: #8045FF;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 50px 62px;
+    font-family: 'Nunito';
+    font-size: 5.8rem;
+    font-weight: 800;
+    color: #230B3F;
+}
+
+.content {
+    margin: 50px 62px;
+    
+}
+
+div {
+    margin: 60px 0;
+}
+
+.name {
+    font-family: 'Nunito';
+    font-size: 4rem;
+    color: #230B3F;
+    margin-bottom: 30px;
+}
+
+.yellow-button {
+    background: linear-gradient(30deg, #EEDD51, #FFDD87, #EEDD51);
+    color: #2B1C03 !important;
+    border-radius: 50vh;
+    padding: 12px 42px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}

@@ -1,0 +1,91 @@
+@import "./reset.css";
+
+:root {
+    --back: #5837FF;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back);
+    color: #FFFFFF;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+    background-color: #8045FF;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 50px 62px;
+    font-family: 'Nunito';
+    font-size: 5.8rem;
+    font-weight: 800;
+    color: #230B3F;
+}
+
+.content {
+    margin: 50px 62px;
+}
+
+.article {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+}
+
+.article h2 {
+    font-family: 'Nunito';
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: #230B3F;
+}
+
+.article p {
+    font-size: 2.8rem;
+    color: #534068;
+    line-height: 120%;
+    margin: 20px 0 30px 0;
+}
+
+.article .date {
+    margin-bottom: 0;
+}

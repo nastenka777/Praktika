@@ -1,0 +1,92 @@
+@import "./reset.css";
+
+:root {
+    --back: #5837FF;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back);
+    color: #FFFFFF;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+    background-color: #8045FF;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+section {
+    margin: 100px 0;
+    padding: 0 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.first .text-content {
+    width: 50%;
+}
+.second .text-content {
+    width: 45%;
+}
+
+.text-content h2 {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 4.8rem;
+}
+
+/* .boy, .girl {
+    width: calc(1440 / 1728 * 650px);
+} */
+
+.text-content p, .text-content ul {
+    font-size: 2.8rem;
+    margin: 20px 0;
+    color: #534068;
+}
+.text-content ul li {
+    list-style: disc;
+    margin: 15px 0px 15px 30px
+}

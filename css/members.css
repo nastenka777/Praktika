@@ -1,0 +1,104 @@
+@import "./reset.css";
+
+:root {
+    --back: #5837FF;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back);
+    color: #FFFFFF;
+    padding: 16px 62px;
+}
+footer {
+    margin-top: 80px;
+    padding: 60px 62px;
+    background-color: #8045FF;
+}
+
+.nameTag h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.nameTag p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nameTagFooter h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+.nameTagFooter p {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+header ul, footer ul {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #FFFFFF;
+}
+
+.title {
+    margin: 60px auto;
+    width: fit-content;
+}
+h1 {
+    font-family: 'Nunito';
+    font-size: 5.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.caption {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    color: #230B3F;
+}
+
+.cards {
+    display: grid;
+    width: calc(10 / 12 * 100%);
+    margin: 60px auto;
+    grid-template-columns: repeat(3, minmax(300px, 387px));
+    justify-content: center;
+    grid-gap: 20px 30px;
+}
+
+.card {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #DADADA;
+    border-width: 3px;
+}
+.card-img {
+    border-radius: 27px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 3px solid #DADADA;
+}
+.text-content {
+    padding: 30px;
+}
+.text-content h2 {
+    font-size: 2.2rem;
+    color: 230B3F;
+    font-weight: 600;
+}
+.text-content p {
+    font-size: 2rem;
+    color: #230B3F;
+}
