@@ -1,0 +1,20 @@
+Комментарии, которые я оставила::
+
+/* Styles for headings */
+/* Style adjustments for viewports that meet the condition */
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+ Добавление пояснения к мета-тегу на index.html::
+ <meta name="description" content="This is a template for a quick start of a web project with HTML5 and CSS3.">
+
+ Обновление мета-тега на странице 404:
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+Добавление иконки
+<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
